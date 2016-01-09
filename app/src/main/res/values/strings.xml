@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">MyParkz</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_maps">Maps</string>
+    <string name="splash_string">\nMyParkz</string>
+    <string name="login_welcome">"Welcome %1$s"</string>
+    <string name="password_error"><![CDATA[password must be b/w 4 & 16 letters and should have 1 digit and 1 caps letter]]></string>
+</resources>
