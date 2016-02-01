@@ -97,6 +97,7 @@ public class SignupActivity extends AppCompatActivity {
           if (e != null) {
             // Show the error message
             Toast.makeText(SignupActivity.this, e.getMessage(), Toast.LENGTH_LONG).show();
+            onSignupFailed();
           } else {
             Log.i("MapsActivity", "Parse User Created");
             Snackbar.make(_passwordText, "Hurray You signed up", Snackbar.LENGTH_LONG).show();
@@ -108,6 +109,7 @@ public class SignupActivity extends AppCompatActivity {
       Log.i("MapsActivity", env);
     } catch (ParseException e) {
       e.printStackTrace();
+      onSignupFailed();
     }
   }
 
